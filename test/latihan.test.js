@@ -55,10 +55,10 @@ describe('Latihan Test Cases', () => {
   });
 
   // Test Case 6: Greeting component displays lecturer's name
-  test('Greeting component displays "Hello, Pak Dosen"', () => {
-    render(<Greeting name="Pak Dosen" />);
+  test('Greeting component displays "Hello, Pak Farid"', () => {
+    render(<Greeting name="Pak Farid" />);
     const greetingText = screen.getByTestId('greeting');
-    expect(greetingText).toHaveTextContent('Hello, Pak Dosen');
+    expect(greetingText).toHaveTextContent('Hello, Pak Farid');
   });
 
   // Test Case 7: Triggers alert with correct message when clicked
